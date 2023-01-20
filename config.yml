@@ -2,12 +2,21 @@ baseURL: https://dshah-wlw.github.io/
 languageCode: en-us
 title: dshah's site
 theme: PaperModX
+
 params:
+# customisations
   defaultTheme: auto
   ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
-  env: production
   description: my site
   author:
     - dshah
+
+# set up home info details
+  homeInfoParams:
+      Title: 'Hi there :wave:'
+      Content: My name is dshah
+# production so more features are enabled
+  env: production
+
