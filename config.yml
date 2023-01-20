@@ -1,35 +1,13 @@
 baseURL: https://dshah-wlw.github.io/
 languageCode: en-us
 title: dshah's site
-theme: "PaperModX"
-
+theme: PaperModX
 params:
-    # setup auto dark mode for visitors
-    defaultTheme: auto
-
-    # customisations
-      ShowShareButtons: true
-      ShowReadingTime: true
-      ShowWordCount: true
-
-    # enable more features
-    env: production
-
-    # site info
-
-    description: "my site"
-    author:
-      - dshah
-
-    # set up home mode
-    homeInfoParams:
-        Title: Hi there wave
-        Content: Can be Info, links, about...
-
-    socialIcons: # optional
-        - name: "<platform>"
-          url: "<link>"
-        - name: "<platform 2>"
-          url: "<link2>"
-
-
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  env: production
+  description: my site
+  author:
+    - dshah
