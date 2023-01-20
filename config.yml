@@ -1,6 +1,7 @@
 baseURL: https://dshah-wlw.github.io/
 languageCode: en-us
 title: dshah's site
+paginate: 5
 theme: PaperModX
 
 params:
@@ -9,6 +10,8 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
+  enableRobotsTXT: true
+  pygmentsUseClasses: true
   description: my site
   author:
     - dshah
