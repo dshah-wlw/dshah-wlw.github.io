@@ -30,3 +30,15 @@ params:
 # production so more features are enabled
   env: production
 
+# Navigation
+
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: "https://dshah-wlw.github.io"
+      weight: 10
+    - identifier: posts
+      name: posts
+      url: "/posts/"
+      weight: 20 
