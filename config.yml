@@ -15,8 +15,15 @@ params:
 
 # set up home info details
   homeInfoParams:
-      Title: 'Hi there :wave:'
+      Title: Hi there 👋
       Content: My name is dshah
+      socialIcons:
+      - name: github-simple
+        url: "https://github.com/dshah-wlw"
+      - name: linkedin-simple
+        url: "https://linkedin.com/"
+      - name: email
+        url: "test@example.com"
 # production so more features are enabled
   env: production
 
